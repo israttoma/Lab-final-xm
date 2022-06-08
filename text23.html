@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Demo Fram</title>
+</head>
+<table border="1px">
+	<tr>
+		<th>HEAD1</th>
+		<th>HEAD2</th>
+		<th>HEAD3</th>
+
+	</tr>
+	<tr>
+		<td>one</td>
+			<td>two</td>
+				<td>three</td>
+	</tr>
+		<tr>
+		<td rowspan="2">four</td>
+			<td colspan="2">five</td>
+
+	</tr>
+		<tr>
+			<td>six</td>
+				<td>seven</td>
+	</tr>
+</table>
+<body>
+	<form method="GET">
+		<legend>
+<label>Username:</label>
+<input type="text" name="userName" placeholder="abc@gmail.com">
+</legend>
+<legend>
+<label>Password:</label>
+<input type="Password" name="password">
+</legend>
+<legend>
+	<input type="radio" name="size" value="s"> S
+		<input type="radio" name="size" value="l"> L
+			<input type="radio" name="size" value="xl"> XL
+		<input type="radio" name="size" value="xll">XLL
+</legend>
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+</form>
+</body>
+</html>
